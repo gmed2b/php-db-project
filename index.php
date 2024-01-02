@@ -23,6 +23,15 @@ $adherants_count = $db->query("SELECT count(nro_adherant) FROM adherants")->fetc
   <main class="container mx-auto px-5">
 
     <div class="mt-8">
+      <?php if (isset($_GET['error'])) : ?>
+      <div class="bg-red-500 text-white p-4 rounded-lg mb-6">
+        <?php if ($_GET['error'] === 'not_logged_in') : ?>
+        Vous devez être connecté pour accéder à cette page.
+        <?php endif; ?>
+      </div>
+      <?php endif; ?>
+
+
       <h1 class="text-3xl font-semibold mb-6">Tableau de bord</h1>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div class="bg-white p-4 shadow rounded">

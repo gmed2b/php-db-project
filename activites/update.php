@@ -1,5 +1,7 @@
 <?php
 
+require_once "../src/config/check_permission.php";
+
 require_once "../src/init.php";
 
 // Check if the form is submitted
