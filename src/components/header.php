@@ -5,6 +5,7 @@
     </a>
     <div class="ml-auto flex items-center">
       <a href="/project-bd/adherents/" class="text-zinc-500 hover:text-zinc-600 mr-4">Adhérants</a>
+      <a href="/project-bd/liens_parente/" class="text-zinc-500 hover:text-zinc-600 mr-4">Liens</a>
       <a href="/project-bd/benevoles/" class="text-zinc-500 hover:text-zinc-600 mr-4">Bénévoles</a>
       <a href="/project-bd/sections/" class="text-zinc-500 hover:text-zinc-600 mr-4">Sections</a>
       <a href="/project-bd/activites/" class="text-zinc-500 hover:text-zinc-600 mr-4">Activités</a>
