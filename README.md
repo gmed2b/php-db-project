@@ -9,5 +9,3 @@ Des outils de visualisation ont été intégrés pour les pages dédiées à la 
 [Rapport](https://www.gelk.fr/static/Projet_BDD_Mehdi_Anto.pdf)
 
 [Site de démonstration](https://www.gelk.fr/project-bd/)
-
-[Code source](https://github.com/gmed2b/php-db-project)
